@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Sen';
+    src: url('../font/Sen-Bold.eot');
+    src: local('Sen Bold'), local('Sen-Bold'),
+        url('../font/Sen-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Sen-Bold.woff2') format('woff2'),
+        url('../font/Sen-Bold.woff') format('woff'),
+        url('../font/Sen-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url('../font/Sen-ExtraBold.eot');
+    src: local('Sen ExtraBold'), local('Sen-ExtraBold'),
+        url('../font/Sen-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Sen-ExtraBold.woff2') format('woff2'),
+        url('../font/Sen-ExtraBold.woff') format('woff'),
+        url('../font/Sen-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url('../font/Sen-Regular.eot');
+    src: local('Sen Regular'), local('Sen-Regular'),
+        url('../font/Sen-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Sen-Regular.woff2') format('woff2'),
+        url('../font/Sen-Regular.woff') format('woff'),
+        url('../font/Sen-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

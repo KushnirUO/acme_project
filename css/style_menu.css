@@ -1,0 +1,135 @@
+.menu{
+    height: 30px;
+    width: 100%;
+    background:#eb5757;
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    position: fixed;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper_container{
+    height: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 auto 0 auto;
+    max-width: 1280px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.menu_logo{
+    position: relative;
+    display: flex;
+}
+.nav_menu__logo{
+    flex-flow: row wrap;
+}
+
+
+
+.menu_inner{
+    margin-left:auto;
+}
+.nav_menu__button {
+    align-items: center;
+    margin-left: auto;
+}
+.nav_button{
+    position: relative;
+    padding: 4px 10px 4px 10px;
+    margin: 0 20px 0 20px;
+    background:#eb5757;
+    color: white;
+    border: none;
+    border-radius:4px;
+    font-family: "Sen";
+    font-size: 16px;
+    transition-duration: 300ms;
+    transition-timing-function:ease;
+    transition-property: all;
+}
+.nav_button:hover {
+    background:black;
+}
+
+
+.wrapper_cart{
+    position: relative;
+    display: flex;
+}
+.nav_wrapper__cart{
+    position: relative;
+     display: flex;
+     border: none;
+     border-radius:4px;
+     padding: 6px 15px 6px 15px;
+     background: black;
+    align-items: center;
+ }
+.cart__image{
+    width: 20px;
+    height: 20px;
+    position: center;
+}
+.cart_quantity{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -8px;
+    right: -7px;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    color: #222;
+    background: #fff;
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    width: 400px;
+    max-height: 400px;
+    top: 160%;
+    right: 120%;
+    margin-left: -60px;
+    position: absolute;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url('../font/Sen-Regular.eot');
+    src: local('Sen Regular'), local('Sen-Regular'),
+    url('../font/Sen-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/Sen-Regular.woff2') format('woff2'),
+    url('../font/Sen-Regular.woff') format('woff'),
+    url('../font/Sen-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
