@@ -1,4 +1,4 @@
-.menu{
+.menu-header{
     height: 30px;
     width: 100%;
     background:#eb5757;
@@ -8,12 +8,13 @@
 }
 html, body {
     height: 100%;
+    width: 2000px;
     margin: 0;
     padding: 0;
 }
 
 
-.wrapper_container{
+.menu-header_wrapper-container{
     height: 100%;
     padding: 0 15px 0 15px;
     margin: 0 auto 0 auto;
@@ -25,24 +26,24 @@ html, body {
 
 
 
-.menu_logo{
+.wrapper-container_menu-logo{
     position: relative;
     display: flex;
 }
-.nav_menu__logo{
+.menu-logo_img-logo{
     flex-flow: row wrap;
 }
 
 
 
-.menu_inner{
+.menu-header_menu-nav-button{
     margin-left:auto;
 }
-.nav_menu__button {
+.menu-nav-button_button-list {
     align-items: center;
     margin-left: auto;
 }
-.nav_button{
+.button-list_button-name{
     position: relative;
     padding: 4px 10px 4px 10px;
     margin: 0 20px 0 20px;
@@ -56,16 +57,16 @@ html, body {
     transition-timing-function:ease;
     transition-property: all;
 }
-.nav_button:hover {
+.button-list_button-name:hover {
     background:black;
 }
 
 
-.wrapper_cart{
+.wrapper-container_cart{
     position: relative;
     display: flex;
 }
-.nav_wrapper__cart{
+.cart_img-cart{
     position: relative;
      display: flex;
      border: none;
@@ -74,7 +75,7 @@ html, body {
      background: black;
     align-items: center;
  }
-.cart__image{
+.img-cart{
     width: 20px;
     height: 20px;
     position: center;
@@ -98,12 +99,12 @@ html, body {
 
 
 
-.tooltip {
+.cart_tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
 }
-.tooltip .tooltiptext {
+.cart_tooltip .cart_tooltiptext {
     visibility: hidden;
     background-color: white;
     color: black;
@@ -118,7 +119,7 @@ html, body {
     margin-left: -60px;
     position: absolute;
 }
-.tooltip:hover .tooltiptext {
+.cart_tooltip:hover .cart_tooltiptext {
     visibility: visible;
 }
 
